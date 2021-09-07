@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c23ccaaf7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/reset.css">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Jordan Shoes</title>
+</head>
+
+<body>
+    <header data-theme="light">
+        <div class="promo">
+            <p>Ganhe R$ 10,00 de desconto no frete</p>
+            <i class="theme far fa-sun"></i>
+        </div>
+        <div class="header-title">
+            <h1 class="">Jordan Shoes</h1>
+        </div>
+        <section class="img-container" id="typed-strings">
+            <h1>A melhor loja de Jordan</h1>
+            <p id="typed"></p>
+        </section>
+
+    </header>
+    <main>
+        <div class="shop-header">
+            <h1 class="title">Destaques</h1>
+            <p>Frete grátis e chinelo de brinde é aqui, disponível por tempo limitado.</p>
+        </div>
+        <ul class="grid-container">
+            <li>
+                <img src="src/img/1.png" alt="Tênis Jordan Nike">
+            </li>
+            <li>
+                <img src="src/img/2.png" alt="Tênis Jordan Nike">
+            </li>
+            <li>
+                <img src="src/img/3.png" alt="Tênis Jordan Nike">
+            </li>
+            <li>
+                <img src="src/img/4.png" alt="Tênis Jordan Nike">
+            </li>
+            <li>
+                <img src="src/img/5.png" alt="Tênis Jordan Nike">
+            </li>
+            <li>
+                <img src="src/img/6.png" alt="Tênis Jordan Nike">
+            </li>
+            <li>
+                <img src="src/img/7.png" alt="Tênis Jordan Nike">
+            </li>
+            <li>
+                <img src="src/img/8.png" alt="Tênis Jordan Nike">
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="src/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: false
+        });
+
+        ScrollReveal().reveal('.grid-container', {
+            delay: 200
+        });
+        ScrollReveal().reveal('li', {
+            delay: 400
+        });
+
+        const typed = new Typed ('#typed', {
+            stringElement: '#typed-strings',
+            strings: ["A Nike já faturou US$ 3,14 bilhões com a venda do tênis, que já soma 34 modelos.", "O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador Michael Jordan."],
+            typeSpeed: 50
+        });
+    </script>
+</body>
+
+</html>
