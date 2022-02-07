@@ -4,8 +4,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/jean-vitor/jordan-shoes?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/jean-vitor/jordan-shoes?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/jean-vitor/jordan-shoes?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/jean-vitor/jordan-shoes?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/jean-vitor/jordan-shoes?style=for-the-badge)
 
 ## 🎨 Layout
 
